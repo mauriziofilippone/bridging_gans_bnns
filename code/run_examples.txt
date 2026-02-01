@@ -1,0 +1,11 @@
+python all_gans.py --dataset='mnist' --objective="wgan_div" --n_epochs=250 --batch_size=128 --lr=0.001 --n_critic=5 --seed=0 --latent_dim=100 --rho_sam=0.0 --noiselik=0.0 --lambdagrad=0.0 --p_mcd=0.0 --n_mcd=1
+
+python all_gans.py --dataset='mnist' --objective="rgan" --n_epochs=250 --batch_size=128 --lr=0.001 --n_critic=5 --seed=0 --latent_dim=100 --rho_sam=0.0 --noiselik=0.0 --lambdagrad=0.0 --p_mcd=0.0 --n_mcd=1
+
+python3 all_gans.py --dataset="gauss" --objective="mmd_gan" --n_epochs=1000 --batch_size=50 --lr=0.01 --rho_sam=0.0 --n_critic=1 --seed=0 --latent_dim=2  --mlp_depth=0
+
+python all_gans.py --dataset='cifar10' --objective="wgan_div" --n_epochs=250 --batch_size=128 --lr=0.001 --n_critic=5 --seed=0 --latent_dim=100 --rho_sam=0.0 --noiselik=0.0 --lambdagrad=0.0 --p_mcd=0.1 --n_mcd=1
+
+python all_gans.py --dataset='ffhq128' --objective="wgan_div" --n_epochs=250 --batch_size=128 --lr=0.001 --n_critic=5 --seed=0 --latent_dim=100 --rho_sam=0.0 --noiselik=0.0 --lambdagrad=0.0 --p_mcd=0.0 --n_mcd=1
+
+python all_gans.py --dataset='celeba' --objective="wgan_div" --n_epochs=150 --batch_size=128 --lr=0.001 --n_critic=5 --seed=0 --latent_dim=100 --rho_sam=0.0 --noiselik=0.0 --lambdagrad=0.0 --p_mcd=0.0 --n_mcd=1
