@@ -2,17 +2,16 @@
 
 Before running the code, you should ensure that you have access to the data used in this work.
 
-MNIST and CIFAR10 are downloaded automatically and placed in the ../../data/ directory.
-FFHQ and CELEBA need to be downloaded from https://github.com/NVlabs/ffhq-dataset and https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
-
-We increased the size of MNIST and CIFAR10 images to 64x64, and we increased the size of CELEBA images to 128x128. 
-We reduced the size of the original FFHQ images to 128x128x3.
+* MNIST and CIFAR10 are downloaded automatically and placed in the ../../data/ directory.
+* FFHQ and CELEBA need to be downloaded from https://github.com/NVlabs/ffhq-dataset and https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
+* We increased the size of MNIST and CIFAR10 images to 64x64, and we increased the size of CELEBA images to 128x128. 
+* We reduced the size of the original FFHQ images to 128x128x3.
 
 In order to compute the performance metrics, you need to save the images from the data sets above as PNG and place them in the following directories:
-../../../images_dataset_mnist
-../../../images_dataset_cifar10
-../../../images_dataset_ffhq128
-../../../images_dataset_celeba
+* ../../../images_dataset_mnist
+* ../../../images_dataset_cifar10
+* ../../../images_dataset_ffhq128
+* ../../../images_dataset_celeba
 
 For FFHQ128 we use the same directory ../../../images_dataset_ffhq128 to construct the data loader.
 
